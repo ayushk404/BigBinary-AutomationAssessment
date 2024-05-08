@@ -9,5 +9,8 @@
     "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.11"
   },
-  "scripts": {}
+  "scripts": {},
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
 }
