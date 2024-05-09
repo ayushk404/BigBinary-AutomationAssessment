@@ -2,8 +2,8 @@ import { test, expect } from "@playwright/test";
 import { faker } from "@faker-js/faker";
 import LoginPage from "../poms/login";
 
-test.describe("Login page", () => {
-  test("should login with the correct credentials", async ({ page }) => {
+test.describe("Create Project", () => {
+  test("should login with the correct credentials and create a new project", async ({ page }) => {
     await page.goto("https://ayush-kumar-silicon-university.neetoplanner.net");
     const login = new LoginPage(page);
     const email = 'cpts9gnqty9-planner-ayush_kumar-silicon_university@bigbinary.com';
