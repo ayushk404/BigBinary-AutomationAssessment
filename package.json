@@ -1,0 +1,16 @@
+{
+  "name": "ayushk404-neeto-planner-playwright-tests-by-ayushkumar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ayushk404/ayushk404-neeto-planner-playwright-tests-by-ayushkumar.git",
+  "author": "ayushk404 <ayushjmp2003@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
